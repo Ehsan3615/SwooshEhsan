@@ -14,6 +14,7 @@
 		27AD3DC42015012C002303C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AD3DC22015012C002303C2 /* LaunchScreen.storyboard */; };
 		27AD3DCF2015012C002303C2 /* SwooshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD3DCE2015012C002303C2 /* SwooshTests.swift */; };
 		27AD3DDA2015012C002303C2 /* SwooshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD3DD92015012C002303C2 /* SwooshUITests.swift */; };
+		27AD3DE920171886002303C2 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD3DE820171886002303C2 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		27AD3DD52015012C002303C2 /* SwooshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwooshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AD3DD92015012C002303C2 /* SwooshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwooshUITests.swift; sourceTree = "<group>"; };
 		27AD3DDB2015012C002303C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AD3DE820171886002303C2 /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		27AD3DB82015012C002303C2 /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				27AD3DE720171830002303C2 /* Views */,
 				27AD3DB92015012C002303C2 /* AppDelegate.swift */,
 				27AD3DBB2015012C002303C2 /* ViewController.swift */,
 				27AD3DBD2015012C002303C2 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				27AD3DDB2015012C002303C2 /* Info.plist */,
 			);
 			path = SwooshUITests;
+			sourceTree = "<group>";
+		};
+		27AD3DE720171830002303C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27AD3DE820171886002303C2 /* BorderButton.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				27AD3DBC2015012C002303C2 /* ViewController.swift in Sources */,
 				27AD3DBA2015012C002303C2 /* AppDelegate.swift in Sources */,
+				27AD3DE920171886002303C2 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +515,7 @@
 				27AD3DE02015012C002303C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27AD3DE12015012C002303C2 /* Build configuration list for PBXNativeTarget "SwooshTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				27AD3DE32015012C002303C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27AD3DE42015012C002303C2 /* Build configuration list for PBXNativeTarget "SwooshUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				27AD3DE62015012C002303C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
