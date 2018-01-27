@@ -10,8 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var bgImg: UIImageView!
-    @IBOutlet weak var swoosh: UIImageView!
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +19,10 @@ class ViewController: UIViewController {
         
     }
 
- 
+    @IBAction func unwindFromSkillVC(unwindSegue : UIStoryboardSegue){
+        
+        
+    }
 
 
 }
